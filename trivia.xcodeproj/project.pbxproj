@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F1200062B86524200E6B4F0 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1200052B86524200E6B4F0 /* Play.swift */; };
+		5F1200082B8652D300E6B4F0 /* structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1200072B8652D300E6B4F0 /* structure.swift */; };
+		5F7BE9E02B8E3046003C9E0E /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7BE9DF2B8E3046003C9E0E /* Result.swift */; };
+		5F7BE9E22B8E35B2003C9E0E /* TriviaGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7BE9E12B8E35B2003C9E0E /* TriviaGame.swift */; };
+		5F7BE9E42B8E3609003C9E0E /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7BE9E32B8E3609003C9E0E /* Trivia.swift */; };
 		5F9E1C992B7E62FB0051EB9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9E1C982B7E62FB0051EB9A /* AppDelegate.swift */; };
 		5F9E1C9B2B7E62FB0051EB9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9E1C9A2B7E62FB0051EB9A /* SceneDelegate.swift */; };
-		5F9E1C9D2B7E62FB0051EB9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9E1C9C2B7E62FB0051EB9A /* ViewController.swift */; };
+		5F9E1C9D2B7E62FB0051EB9A /* Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9E1C9C2B7E62FB0051EB9A /* Setup.swift */; };
 		5F9E1CA02B7E62FB0051EB9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9E1C9E2B7E62FB0051EB9A /* Main.storyboard */; };
 		5F9E1CA22B7E62FD0051EB9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9E1CA12B7E62FD0051EB9A /* Assets.xcassets */; };
 		5F9E1CA52B7E62FD0051EB9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9E1CA32B7E62FD0051EB9A /* LaunchScreen.storyboard */; };
+		5F9E1CAD2B7E637F0051EB9A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9E1CAC2B7E637F0051EB9A /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F1200052B86524200E6B4F0 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		5F1200072B8652D300E6B4F0 /* structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structure.swift; sourceTree = "<group>"; };
+		5F7BE9DF2B8E3046003C9E0E /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		5F7BE9E12B8E35B2003C9E0E /* TriviaGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaGame.swift; sourceTree = "<group>"; };
+		5F7BE9E32B8E3609003C9E0E /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
 		5F9E1C952B7E62FB0051EB9A /* trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9E1C982B7E62FB0051EB9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F9E1C9A2B7E62FB0051EB9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F9E1C9C2B7E62FB0051EB9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F9E1C9C2B7E62FB0051EB9A /* Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setup.swift; sourceTree = "<group>"; };
 		5F9E1C9F2B7E62FB0051EB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F9E1CA12B7E62FD0051EB9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F9E1CA42B7E62FD0051EB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F9E1CA62B7E62FD0051EB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9E1CAC2B7E637F0051EB9A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +68,15 @@
 		5F9E1C972B7E62FB0051EB9A /* trivia */ = {
 			isa = PBXGroup;
 			children = (
+				5F7BE9E32B8E3609003C9E0E /* Trivia.swift */,
+				5F7BE9E12B8E35B2003C9E0E /* TriviaGame.swift */,
+				5F1200072B8652D300E6B4F0 /* structure.swift */,
 				5F9E1C982B7E62FB0051EB9A /* AppDelegate.swift */,
 				5F9E1C9A2B7E62FB0051EB9A /* SceneDelegate.swift */,
-				5F9E1C9C2B7E62FB0051EB9A /* ViewController.swift */,
+				5F9E1CAC2B7E637F0051EB9A /* TabBar.swift */,
+				5F9E1C9C2B7E62FB0051EB9A /* Setup.swift */,
+				5F1200052B86524200E6B4F0 /* Play.swift */,
+				5F7BE9DF2B8E3046003C9E0E /* Result.swift */,
 				5F9E1C9E2B7E62FB0051EB9A /* Main.storyboard */,
 				5F9E1CA12B7E62FD0051EB9A /* Assets.xcassets */,
 				5F9E1CA32B7E62FD0051EB9A /* LaunchScreen.storyboard */,
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F9E1C9D2B7E62FB0051EB9A /* ViewController.swift in Sources */,
+				5F9E1C9D2B7E62FB0051EB9A /* Setup.swift in Sources */,
+				5F7BE9E42B8E3609003C9E0E /* Trivia.swift in Sources */,
 				5F9E1C992B7E62FB0051EB9A /* AppDelegate.swift in Sources */,
 				5F9E1C9B2B7E62FB0051EB9A /* SceneDelegate.swift in Sources */,
+				5F9E1CAD2B7E637F0051EB9A /* TabBar.swift in Sources */,
+				5F7BE9E22B8E35B2003C9E0E /* TriviaGame.swift in Sources */,
+				5F7BE9E02B8E3046003C9E0E /* Result.swift in Sources */,
+				5F1200062B86524200E6B4F0 /* Play.swift in Sources */,
+				5F1200082B8652D300E6B4F0 /* structure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,9 +330,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tadahiroueta.trivia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -333,9 +361,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tadahiroueta.trivia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

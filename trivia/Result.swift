@@ -19,6 +19,7 @@ class Result: UIViewController {
         
         let label = UILabel()
         label.text = "You got \(points!) out of \(total!)!"
+        label.textColor = .black
         label.font = .systemFont(ofSize: 24)
         stack.addArrangedSubview(label)
         

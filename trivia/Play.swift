@@ -19,7 +19,8 @@ class Play: UIViewController {
         let stack = addScreenStack(to: view)
         stack.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -50).isActive = true
         stack.distribution = .equalSpacing
-        
+
+        questionLabel.textColor = .black
         questionLabel.font = .systemFont(ofSize: 30)
         questionLabel.textAlignment = .center
         questionLabel.numberOfLines = 0

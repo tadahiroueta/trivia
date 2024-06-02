@@ -28,6 +28,7 @@ class Setup: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
         let title = UILabel()
         title.text = "Trivia"
+        title.textColor = .black
         title.font = .boldSystemFont(ofSize: 96)
         stack.addArrangedSubview(title)
         
@@ -44,6 +45,7 @@ class Setup: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
         
         let categoryComment = UILabel()
         categoryComment.text = "Choose a category"
+        categoryComment.textColor = .black
         categoryComment.font = .boldSystemFont(ofSize: 17)
         categoryStack.addArrangedSubview(categoryComment)
         
@@ -61,6 +63,7 @@ class Setup: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
         
         let quantityComment = UILabel()
         quantityComment.text = "How many questions?"
+        quantityComment.textColor = .black
         quantityComment.font = .boldSystemFont(ofSize: 17)
         quantityStack.addArrangedSubview(quantityComment)
         
@@ -69,6 +72,7 @@ class Setup: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
         quantityStack.addArrangedSubview(stepperStack)
         
         quantityDisplay.text = String(selectedQuantity)
+        quantityDisplay.textColor = .black
         quantityDisplay.font = .systemFont(ofSize: 24)
         stepperStack.addArrangedSubview(quantityDisplay)
         
@@ -94,8 +98,8 @@ class Setup: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
         return categories.count
     }
     
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return categories[row]
+    func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
+        return NSAttributedString(string: categories[row], attributes: [NSAttributedString.Key.foregroundColor: UIColor.black])
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
